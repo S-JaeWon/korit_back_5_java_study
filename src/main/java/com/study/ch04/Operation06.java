@@ -14,6 +14,7 @@ public class Operation06 {
         String name = ""; // 값이 공백, 비었음
         String name1 = null; // 주소 x , 변수가 비었음
         System.out.println(name == null);
+        System.out.println(name == null);
 
         String name2 = "심재원";
         String name3 = new String("심재원");
