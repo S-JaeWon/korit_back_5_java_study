@@ -15,6 +15,7 @@ public class Operation06 {
         String name1 = null; // 주소 x , 변수가 비었음
         System.out.println(name == null);
         System.out.println(name == null);
+        System.out.println("테스트 코드 작성");
 
         String name2 = "심재원";
         String name3 = new String("심재원");
