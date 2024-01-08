@@ -8,6 +8,9 @@ public class BookMain {
         String seletedMenu = null;
         //Book book1 = null;
         Book[] books = new Book[3];
+        BookRepository bookRepository = new BookRepository(books);
+        BookService bookService = new BookService();
+
         while(true) {
             System.out.println("도서 관리 프로그램");
             System.out.println("1. 책 정보 등록");
