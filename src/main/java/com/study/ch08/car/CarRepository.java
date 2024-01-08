@@ -15,7 +15,7 @@ public class CarRepository {
             }
         }
         return emptyCount;
-    }*/ //getEmptyIndex 함수를 생성했기에 필요x
+    } //getEmptyIndex 함수를 생성했기에 필요x*/
 
     int getEmptyIndex() {
         for(int i = 0; i < cars.length; i++) {

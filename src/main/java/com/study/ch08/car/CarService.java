@@ -14,13 +14,13 @@ public class CarService {
             if (carRepository.cars[i] == null) {
                 emptyCount++;
             }
-        }*/ //CR
-        //return carRepository.getEmptyCount() ==0; //emptyCount -> carRepository.getEmptyCount()
+        } //CR
+        //return carRepository.getEmptyCount() ==0; //emptyCount -> carRepository.getEmptyCount()*/
         return carRepository.getEmptyIndex() == -1;
     }
     //리턴이 필요 x
-    void append(Car car) {/*
-        for (int i = 0; i < cars; i++) { //cars -> carRepository.cars
+    void append(Car car) {
+        /*for (int i = 0; i < cars; i++) { //cars -> carRepository.cars
             if (cars[i] == null) {
                 cars[i] = car;
                 break;
