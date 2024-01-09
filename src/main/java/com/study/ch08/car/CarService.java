@@ -4,7 +4,7 @@ public class CarService {
     CarRepository carRepository; //CarRepository 속 내용을 필요로 하기에 불러옴
 
     // CR 내용을 받아 오기 위해 생성자 생성
-    CarService(CarRepository carRepository){
+    CarService(CarRepository carRepository) {
         this.carRepository = carRepository;
     }
 

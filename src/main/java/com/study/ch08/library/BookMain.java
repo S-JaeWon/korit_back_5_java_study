@@ -9,7 +9,7 @@ public class BookMain {
         //Book book1 = null;
         Book[] books = new Book[3];
         BookRepository bookRepository = new BookRepository(books);
-        BookService bookService = new BookService();
+        BookService bookService = new BookService(bookRepository);
 
         while(true) {
             System.out.println("도서 관리 프로그램");
@@ -34,6 +34,10 @@ public class BookMain {
                 if (emptyCount == 0) {
                     System.out.println("더 이상 등록할 수 없습니다.");
                     continue;
+                } // 비즈니스 로직이므로 Service 클래스로 전달
+                if(bookService.isFull()) {
+                    System.out.println("더이상 등록할 수 없습니다.");
+                    continue;
                 }
 
                 System.out.print("책 제목 >>> ");
@@ -48,7 +52,7 @@ public class BookMain {
                     if (books[i] == null) {
                         books[i] = book;
                         break;
-                    }
+                    } //데이터 내용이므로 Repository 클래스로 전달
                 }
             } else if ("2".equals(seletedMenu)) {
                 System.out.println("책 정보 조회하기");

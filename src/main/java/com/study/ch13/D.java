@@ -6,6 +6,7 @@ public class D {
         System.out.println("<< D 클래스 >>");
         //A클래스에서 받아온 company 출력
         System.out.println(company);
-
+        System.out.println("<< D클래스 싱글톤 결과 >>");
+        System.out.println(company.getClass());
     }
 }
