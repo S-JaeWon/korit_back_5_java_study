@@ -2,6 +2,7 @@ package com.study.ch09;
 
 public class ElectronicDeviceMain {
     public static void main(String[] args) {
+
         ElectronicDevice[] electronicDevices = new ElectronicDevice[10];
 
         for (int i = 0; i < electronicDevices.length; i++) {

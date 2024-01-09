@@ -1,6 +1,6 @@
 package com.study.ch09;
 
-public class ElectronicDevice {
+public class ElectronicDevice { //부모 클래스
     boolean powerState; //booelan 기본값은 false
 
     void setPowerOn() {

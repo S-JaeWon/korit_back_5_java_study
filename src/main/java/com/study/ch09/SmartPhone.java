@@ -1,6 +1,6 @@
 package com.study.ch09;
 
-public class SmartPhone extends ElectronicDevice {
+public class SmartPhone extends ElectronicDevice { // extends: 상속, 자식클래스 01
     String model;
     String color;
 
