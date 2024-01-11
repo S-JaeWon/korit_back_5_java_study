@@ -21,15 +21,12 @@ public class MemberMain {
             }
         }
         return null;
-
     }
-
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         //ArrayList<Member> members = new ArrayList<>();
         String selectedMenu = null;
-
         while (true) {
             System.out.println("회원 관리 프로그램");
             System.out.println("1. 회원등록");
