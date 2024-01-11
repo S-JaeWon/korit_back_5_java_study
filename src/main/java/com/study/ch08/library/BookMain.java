@@ -1,7 +1,7 @@
 package com.study.ch08.library;
 
 import java.util.Scanner;
-
+//TODO Main Service Repository 나누기
 public class BookMain {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -37,6 +37,7 @@ public class BookMain {
                 } // 비즈니스 로직이므로 Service 클래스로 전달
                 if(bookService.isFull()) {
                     System.out.println("더이상 등록할 수 없습니다.");
+                    System.out.println();
                     continue;
                 }
 
@@ -48,17 +49,19 @@ public class BookMain {
 
                 Book book = new Book(name, code);
 
-                for (int i = 0; i < books.length; i++) {
+                /*for (int i = 0; i < books.length; i++) {
                     if (books[i] == null) {
                         books[i] = book;
                         break;
                     } //데이터 내용이므로 Repository 클래스로 전달
-                }
+                }*/
+                bookService.append(book);
+
             } else if ("2".equals(seletedMenu)) {
                 System.out.println("책 정보 조회하기");
                 for (int i = 0; i < books.length; i++) {
                     //System.out.println(books[i].toString());
-                    System.out.println("[" + (i + 1) + "]: ");
+                    System.out.print("[" + (i + 1) + "]: ");
 
                     if(books[i] == null){
                         System.out.println("X");

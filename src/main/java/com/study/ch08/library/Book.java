@@ -15,6 +15,6 @@ public class Book {
         return "책 정보<" +
                 "제목='" + name + '\'' +
                 ", 책 코드=" + code +
-                ">";
+                ">" + '\n';
     }
 }

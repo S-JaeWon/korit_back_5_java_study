@@ -16,4 +16,8 @@ public class BookService {
         }
         return emptyCount == 0 ;
     }
+
+    void append (Book book) {
+        bookRepository.insert(book);
+    }
 }

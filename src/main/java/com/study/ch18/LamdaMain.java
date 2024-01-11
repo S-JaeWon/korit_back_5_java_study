@@ -11,7 +11,7 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
-
+//TODO https://bangu4.tistory.com/215 람다
 public class LamdaMain {
     public static void main(String[] args) {
         //함수 내에서 함수 정의가 된다.

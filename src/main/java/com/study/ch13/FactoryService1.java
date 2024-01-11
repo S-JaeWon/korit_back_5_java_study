@@ -8,6 +8,7 @@ public class FactoryService1 {
     //private Factory factory;
 
     public FactoryService1(Scanner scanner) {
+
         this.scanner = scanner;
     }
 

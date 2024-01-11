@@ -12,4 +12,14 @@ public class Student {
         this.age = age;
         this.score = score;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", age=" + age +
+                ", score=" + score +
+                '}';
+    }
 }

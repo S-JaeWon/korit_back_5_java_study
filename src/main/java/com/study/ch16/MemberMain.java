@@ -2,7 +2,7 @@ package com.study.ch16;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
+//TODO ArrayList
 public class MemberMain {
     private static ArrayList<Member> members = new ArrayList<>(); // 2)에서 ArrayList<Member> members 내용을 생략 하기위에 main문 밖으로 꺼내줌
 

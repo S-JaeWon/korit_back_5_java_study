@@ -1,7 +1,7 @@
 package com.study.ch07.member;
 
 import java.util.Scanner;
-
+///TODO Main Service Repository 나누기
 public class MemberMain {
 
     public static void main(String[] args) {
