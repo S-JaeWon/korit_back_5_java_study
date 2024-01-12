@@ -28,7 +28,9 @@ public class StudentListMain {
         }
         System.out.println(students);
         //향상된 for
+        //TODO 향샹된 for문
         //인덱스를 쓰지 않으므로 무조건 처음 부터 끝까지 작동함
+        //for(자료형 변수명 : 배열 or 컬렉션(list, set))
         for(Student student : students) {
             student.setAge(student.getAge() + 1);
         }

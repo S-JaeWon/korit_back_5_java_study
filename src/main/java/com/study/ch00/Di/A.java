@@ -1,4 +1,4 @@
-package com.study.ch00;
+package com.study.ch00.Di;
 
 public class A {
     public void test() {
