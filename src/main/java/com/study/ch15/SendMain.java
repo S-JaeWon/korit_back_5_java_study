@@ -1,5 +1,6 @@
 package com.study.ch15;
 
+//TODO 제네릭
 public class SendMain {
     public static void main(String[] args) {
         SendData<String> sendData1 = new SendData(200, "심재원");

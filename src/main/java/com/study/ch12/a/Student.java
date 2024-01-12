@@ -1,5 +1,5 @@
 package com.study.ch12.a;
-
+//TODO Setter Getter
 public class Student {
     private String name;
     private String address;

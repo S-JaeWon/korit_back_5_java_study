@@ -1,5 +1,5 @@
 package com.study.ch10;
-
+//TODO 인터페이스
 public class ElectronicDeviceMain {
     public static void main(String[] args) {
 
