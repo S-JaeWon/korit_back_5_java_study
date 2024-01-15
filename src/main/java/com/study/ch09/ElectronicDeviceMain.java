@@ -1,5 +1,5 @@
 package com.study.ch09;
-
+//TODO 다운캐스팅
 public class ElectronicDeviceMain {
     public static void main(String[] args) {
 
@@ -14,10 +14,11 @@ public class ElectronicDeviceMain {
         }
         System.out.println();
 
+        /*for(int i = 0; i < electronicDevices.length; i++) {
+            electronicDevices[i].showDeviceState();
+        }*/
         for(int i = 0; i < electronicDevices.length; i++) {
             electronicDevices[i].showDeviceState();
-        }
-        for(int i = 0; i < electronicDevices.length; i++) {
             if (electronicDevices[i] instanceof Computer) {
                 Computer computer = (Computer) electronicDevices[i];
                 computer.playGame();

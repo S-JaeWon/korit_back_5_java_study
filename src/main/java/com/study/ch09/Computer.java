@@ -1,5 +1,5 @@
 package com.study.ch09;
-
+//TODO 상속과 확장
 public class Computer extends ElectronicDevice { // extends: 상속, 자식 클래스 02
     String cpu;
     int ram;

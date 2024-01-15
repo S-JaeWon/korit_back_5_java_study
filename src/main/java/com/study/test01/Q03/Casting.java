@@ -10,11 +10,14 @@ public class Casting {
             programs[i].develop();
         }*/
         //instanceof 또는 getClass()를 활용하여 다운캐스팅 활용
+        //ch09 참조
         for(int i = 0; i < programs.length; i++) {
             programs[i].develop();
+            //if(programs[i] instanceof Java)
             if(programs[i].getClass() == Java.class) {
                 Java java = (Java) programs[i]; //다운캐스팅
                 java.garbageCollection();
+            //if(programs[i] instanceof C)
             } else if(programs[i].getClass() == C.class) {
                 C c = (C) programs[i]; //다운캐스팅
                 c.defineStructure();
@@ -22,7 +25,6 @@ public class Casting {
         }
     }
 }
-
 
 /*
 * 자바 프로그램을 개발합니다.
