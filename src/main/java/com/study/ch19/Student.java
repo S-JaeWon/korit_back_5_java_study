@@ -2,7 +2,7 @@ package com.study.ch19;
 
 import lombok.ToString;
 
-@ToString
+//@ToString
 public class Student {
     private String name;
     private String address;
@@ -46,10 +46,16 @@ public class Student {
         public Student build() {
             return new Student(name, address, age);
         }
+
     }
-
-
-
-
+    //@ToString
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
 

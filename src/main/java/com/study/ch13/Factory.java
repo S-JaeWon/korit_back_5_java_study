@@ -1,5 +1,6 @@
 package com.study.ch13;
 
+//TODO 싱글톤
 public class Factory {
 
     //자기 자신 클래스를 스태틱 변수로 가지고 있어야 한다. (3)
