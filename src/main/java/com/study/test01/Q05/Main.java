@@ -2,6 +2,7 @@ package com.study.test01.Q05;
 
 public class Main {
     public static void main(String[] args) {
+        /*Order order = new Order(100, "Samsung", "홍길동", 1000, 2);*/
 
         Order order = Order.builder()
                 .orderId(100)

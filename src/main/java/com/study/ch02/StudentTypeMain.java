@@ -1,6 +1,6 @@
 package com.study.ch02;
 
-public class StudentTypeMain {
+public class  StudentTypeMain {
     public static void main(String[] args) {
         StudentType A = new StudentType();
         A.name = "철수";
